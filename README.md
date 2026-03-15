@@ -49,6 +49,7 @@ Aplikasi menggunakan file `.env` untuk menyimpan konfigurasi Supabase agar API K
 Contoh isi file `.env`:
 
 SUPABASE_URL=supabase_url
+
 SUPABASE_ANON_KEY=anon_key
 
 File `.env` tidak diupload ke repository karena sudah dimasukkan ke `.gitignore`.
@@ -453,5 +454,7 @@ Halaman ini berisi 4 input field:
 - URL Gambar (Opsional)
 
 Terdapat tombol “Simpan” yang digunakan untuk menyimpan data resep.
+
+
 
 <img width="250" height="550" alt="image" src="https://github.com/user-attachments/assets/536af0e6-03f7-4142-8c96-9a71bc3aebda" /> <img width="250" height="550" alt="image" src="https://github.com/user-attachments/assets/c09bbca0-878c-4c06-a145-647bdd1890ca" />
