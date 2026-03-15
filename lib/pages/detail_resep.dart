@@ -5,14 +5,10 @@ import 'form_resep.dart';
 
 class DetailResep extends StatelessWidget {
   final Resep resep;
-  final int index;
-  final Function(int, Resep) onUpdate;
 
   const DetailResep({
     super.key,
     required this.resep,
-    required this.index,
-    required this.onUpdate,
   });
 
   @override
@@ -24,22 +20,17 @@ class DetailResep extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.edit),
             onPressed: () async {
-              final hasil = await Navigator.push(
+              await Navigator.push(
                 context,
                 MaterialPageRoute(
                   builder: (context) => FormResep(resep: resep),
                 ),
               );
-              if (hasil != null) {
-                onUpdate(index, hasil);
-                // ignore: use_build_context_synchronously
-                Navigator.pop(context);
-              }
+              Navigator.pop(context);
             },
           )
         ],
       ),
-
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(25),
@@ -50,8 +41,8 @@ class DetailResep extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30),
                   border: Border.all(
-                    color: darkChoco,   
-                    width: 10,       
+                    color: darkChoco,
+                    width: 10,
                   ),
                 ),
                 child: ClipRRect(
@@ -61,6 +52,14 @@ class DetailResep extends StatelessWidget {
                     width: double.infinity,
                     height: 220,
                     fit: BoxFit.cover,
+                    errorBuilder: (context, error, stackTrace) {
+                      return Container(
+                        width: double.infinity,
+                        height: 220,
+                        color: Colors.grey[300],
+                        child: const Icon(Icons.image),
+                      );
+                    },
                   ),
                 ),
               ),
