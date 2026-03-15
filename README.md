@@ -435,11 +435,13 @@ Halaman ini menampilkan daftar resep dalam bentuk card dengan gambar di bagian a
 
 <img width="250" height="550" alt="image" src="https://github.com/user-attachments/assets/e479ce7f-842b-4394-b9fb-cfeb7875a89e" />
 
+
 **2. Halaman Detail Resep**  
 
 Halaman ini menampilkan gambar resep yang lebih besar, serta informasi bahan dan langkah memasaknya. Terdapat tombol edit di bagian kanan atas untuk mengubah data resep.
 
 <img width="250" height="550" alt="image" src="https://github.com/user-attachments/assets/f9084c88-f17e-4e5b-b790-845d640a2c16" />
+
 
 **3. Halaman Form Tambah / Edit Resep**
 
