@@ -458,3 +458,6 @@ Halaman ini berisi 4 input field:
 Terdapat tombol “Simpan” yang digunakan untuk menyimpan data resep.
 
 <img width="250" height="550" alt="image" src="https://github.com/dillamhrn/Mini-Project-2-PAB/blob/fc3e6b95c36b7f4f43c0fce1cee94066e64e8eb2/image.png" /> <img width="250" height="550" alt="image" src="https://github.com/dillamhrn/Mini-Project-2-PAB/blob/39c57cd8fc1a5ae3f9f68107ca3c35cfdf33f17c/editresep.png" />
+---
+## 👩🏻‍💻 Author
+© 2026 **Dilla Maharani**  
