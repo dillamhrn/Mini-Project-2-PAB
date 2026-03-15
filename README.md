@@ -455,6 +455,6 @@ Halaman ini berisi 4 input field:
 
 Terdapat tombol “Simpan” yang digunakan untuk menyimpan data resep.
 
+https://github.com/dillamhrn/Mini-Project-2-PAB/blob/fc3e6b95c36b7f4f43c0fce1cee94066e64e8eb2/image.png
 
-
-<img width="250" height="550" alt="image" src="https://github.com/user-attachments/assets/536af0e6-03f7-4142-8c96-9a71bc3aebda" /> <img width="250" height="550" alt="image" src="https://github.com/user-attachments/assets/c09bbca0-878c-4c06-a145-647bdd1890ca" />
+<img width="250" height="550" alt="image" src="https://github.com/dillamhrn/Mini-Project-2-PAB/blob/fc3e6b95c36b7f4f43c0fce1cee94066e64e8eb2/image.png" /> <img width="250" height="550" alt="image" src="https://github.com/user-attachments/assets/c09bbca0-878c-4c06-a145-647bdd1890ca" />
